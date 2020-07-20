@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{29c93b7f-16d5-4d6d-b682-f9268d9335df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{cb697cad-2e61-4d0a-b9cc-7ca68d36cb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\Enemy">
+      <UniqueIdentifier>{da63428c-92af-423d-bee5-af8795101f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{24022805-0360-425b-a202-9d9372dee3d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level">
+      <UniqueIdentifier>{d6abaf7a-0802-41e7-a9f4-baf46ac788f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bullet">
+      <UniqueIdentifier>{529f06d8-b49c-4bd2-b7a8-ce106908e954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Interactable">
+      <UniqueIdentifier>{f0a927b0-ac55-41b1-be77-d83d254a75fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameModes">
+      <UniqueIdentifier>{477735eb-f9de-4a02-9074-2c08a8ab041c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Pathfinding">
+      <UniqueIdentifier>{60bcb340-7d76-4341-b61e-4ecf616dc88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\WIP">
+      <UniqueIdentifier>{8a969989-a3e1-4a16-b40f-cd5cf74ee707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Interactable\Interactables">
+      <UniqueIdentifier>{c175a9db-6660-4f2a-9af5-47bcddfad3cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CRC.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Error.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilsDefines.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUtil.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryBuilder.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FX.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderTypes.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnim.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFolder.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMgr.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMgrFMOD.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSCamera.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>Game\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Interactable.cpp">
+      <Filter>Game\Interactable</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMode.cpp">
+      <Filter>Game\GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMode.cpp">
+      <Filter>Game\GameModes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shell.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="LightDrone.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Pathfinding.cpp">
+      <Filter>Game\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMode.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="scoreUsername.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EndMode.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="HeavyDrone.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityHandler.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="AmmoPickup.cpp">
+      <Filter>Game\Interactable\Interactables</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPickup.cpp">
+      <Filter>Game\Interactable\Interactables</Filter>
+    </ClCompile>
+    <ClCompile Include="Objective.cpp">
+      <Filter>Game\Interactable\Interactables</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CRC.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilsDefines.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUtil.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryBuilder.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FX.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderTypes.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnim.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFolder.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioMgr.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioMgrFMOD.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSCamera.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>Game\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Interactable.h">
+      <Filter>Game\Interactable</Filter>
+    </ClInclude>
+    <ClInclude Include="gameMode.h">
+      <Filter>Game\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMode.h">
+      <Filter>Game\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMode.h">
+      <Filter>Game\GameModes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell.h" />
+    <ClInclude Include="LightDrone.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Pathfinding.h">
+      <Filter>Game\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Game\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPickup.h">
+      <Filter>Game\Interactable\Interactables</Filter>
+    </ClInclude>
+    <ClInclude Include="AmmoPickup.h">
+      <Filter>Game\Interactable\Interactables</Filter>
+    </ClInclude>
+    <ClInclude Include="Objective.h">
+      <Filter>Game\Interactable\Interactables</Filter>
+    </ClInclude>
+    <ClInclude Include="scoreUsername.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EndMode.h" />
+    <ClInclude Include="HeavyDrone.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityHandler.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\FX\LightHelper.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\Constants.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\TextureVS.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\PSCore.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\PSUnlitNoTex.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\PSLitNoTex.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\PSLitTex.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\PSUnlitTex.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\PSLine.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="..\FX\VSLine.hlsl">
+      <Filter>FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\bin\data\SpaceWall1.dds">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
